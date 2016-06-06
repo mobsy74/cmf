@@ -294,13 +294,17 @@ img.img-circle.team-img {
 	transition: all 0.5s;
 }
 
+
 .tf-services a{ 
 	color: #5A5A5A;
+	outline-width: 0;
 }
 
+/*
 .tf-services a:hover{ 
 	color: #FCAC45;
 }
+*/
 
 .tf-services i.fa.fa-mobile{
 	font-size: 50px;
@@ -308,6 +312,11 @@ img.img-circle.team-img {
 }
 
 .tf-services .service:hover>i.fa{
+	background: #FCAC45;
+	color: #ffffff;
+}
+
+.tf-services i:hover{ 
 	background: #FCAC45;
 	color: #ffffff;
 }
@@ -632,3 +641,23 @@ position: relative;
     width: 50%;
     margin: -15% 0 0 -25%;
 }
+
+.modal {
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) { 
+  .modal:before {
+    display: inline-block;
+    vertical-align: middle;
+    content: " ";
+    height: 100%;
+  }
+}
+
+.modal-dialog {
+  display: inline-block;
+  text-align: left;
+  vertical-align: middle;
+}
+
