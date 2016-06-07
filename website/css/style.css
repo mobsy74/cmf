@@ -661,3 +661,6 @@ position: relative;
   vertical-align: middle;
 }
 
+.team-left-pad {
+  margin-left: 145px !important;
+}

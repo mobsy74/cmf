@@ -40,6 +40,14 @@ function main() {
         }
     });
 
+    $(window).resize(function(){
+        if ($(window).width() > 500) {
+            $("#team").addClass('team-left-pad');
+        } else {
+            $("#team").removeClass('team-left-pad');
+        }
+    });
+
     $('body').scrollspy({ 
         target: '.navbar-default',
         offset: 80
