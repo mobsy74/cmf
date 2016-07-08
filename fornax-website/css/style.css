@@ -7,12 +7,12 @@ body{
 	color:#666;
 	font-size:16px;
 	font-weight: 400;
-	  -webkit-font-smoothing: antialiased;
-     font-smoothing: antialiased;
+	-webkit-font-smoothing: antialiased;
+	font-smoothing: antialiased;
 }
 
 * {
-     text-shadow: 0 1px 1px rgba(255,255,255,.3);
+	text-shadow: 0 1px 1px rgba(255,255,255,.3);
 }
 
 p{line-height: 24px}
@@ -34,10 +34,13 @@ HEADER ROW STYLE
 #header-row{
 	background: #f5f5f5;
 	border-bottom:1px solid #eee;
-	padding: 15px 0;
+	/*padding: 15px 0;*/
 }
 
-#header-row .navbar{margin:10px 0 0 0;}
+div#header-row {position:fixed; top:0px; margin:auto; z-index:100000; width:100%;}
+/*div#header-row {position:fixed; top:0px; margin:auto; z-index:100000; width:100%; opacity:0.8}*/
+
+#header-row .navbar{margin:0 0 0 0;}
 
 #header-row .navbar .navbar-inner{
 	border:none;
@@ -55,6 +58,9 @@ HEADER ROW STYLE
 	color: #333;
 }
 
+#logo {
+	padding: 3px 20px 3px !important;
+}
 
 /* 
 Carousel
@@ -65,7 +71,7 @@ Carousel
 	width: 14px;
 	height: 14px;
 	font-size: 14px;
-	top:50%;	
+	top:50%;
 }
 
 .carousel-control.right{right:-30px;}
@@ -83,11 +89,11 @@ Carousel
 }
 
 .carousel-caption {
-      background-color: transparent;
-      position: relative;
-      max-width: 100%;
-      padding: 0 20px;
-      margin-top:20%;
+	background-color: transparent;
+	position: relative;
+	max-width: 100%;
+	padding: 0 20px;
+	margin-top:20%;
 
 }
 
@@ -110,7 +116,7 @@ Carousel
 /* Divider
 ==================*/
 .hr-divider{
-	background: url(../img/slide-bg.png) no-repeat bottom center; 
+	background: url(../img/slide-bg.png) no-repeat bottom center;
 	width:1170px;
 	height: 100px;
 	margin-bottom: 50px;
@@ -124,7 +130,7 @@ Carousel
 	text-align: center;
 }
 .cnt-title { text-align: center; margin-bottom: 50px;}
-.cnt-title span { 
+.cnt-title span {
 	font-size: 24px;
 	font-weight: 200;
 }
@@ -163,9 +169,9 @@ Carousel
 ========================*/
 
 .blog-post{
-		border-bottom: 2px solid #f5f5f5;
-		padding:0 0 50px; 
-		margin-bottom: 40px;
+	border-bottom: 2px solid #f5f5f5;
+	padding:0 0 50px;
+	margin-bottom: 40px;
 }
 
 
@@ -215,11 +221,11 @@ Carousel
 ========================*/
 
 footer{
-border-top:1px solid #eee;
-background: #f5f5f5;
-padding: 30px 0;
-color: #ccc;
-margin-top:40px;
+	border-top:1px solid #eee;
+	background: #f5f5f5;
+	padding: 30px 0;
+	color: #ccc;
+	margin-top:40px;
 }
 
 
@@ -227,11 +233,11 @@ margin-top:40px;
 =================================*/
 
 /* Landscape phone to portrait tablet */
-@media (max-width: 767px) { 
+@media (max-width: 767px) {
 
- }
- 
+}
+
 /* Landscape phones and down */
-@media (max-width: 480px) { ... }
+@media (max-width: 480px) {  }
 
 
