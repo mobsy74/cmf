@@ -28,17 +28,105 @@ h2{font-size: 30px; font-weight: 300; color:#444; margin: 30px 0}
 h3{font-size: 20px; font-weight: 400; margin: 20px 0;}
 h4{font-size:18px; font-weight: 400}
 
+.happy-town-img{
+	padding-top: 80px;
+	padding-bottom: 100px;
+}
+
+.top-section{
+	margin-top: 70px;
+}
+
+.section-520{
+	height:520px;
+}
+
+.section-452{
+	height:452px;
+}
+
+.top-padding{
+	padding-top: 20px;
+}
+
+.background-white {
+	background: white;
+}
+
+.background-blue {
+	background: #2A3C98;
+}
+
+.background-red {
+	background: #E64C39;
+}
+
+.background-gray {
+	background: #D1D3D4;
+}
+
+.text-white {
+	color: white;
+}
+
+.text-blue {
+	color: #2A3C98;
+}
+
+.text-red {
+	color: #E64C39;
+}
+
+.text-gray {
+	color: #D1D3D4;
+}
+
+.flipped-img {
+	-moz-transform: scaleX(-1);
+	-o-transform: scaleX(-1);
+	-webkit-transform: scaleX(-1);
+	transform: scaleX(-1);
+	filter: "FlipH";
+	-ms-filter: "FlipH";
+}
+
+.text-centered {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.text-bold{
+	font-weight: bold;
+}
+
+.text-300 {
+	font-size: 300%;
+}
+
+.text-200 {
+	font-size: 200%;
+}
+
+.text-150 {
+	font-size: 150%;
+}
+
+.empty-div{
+	height: 500px;
+}
+
 /* 
 HEADER ROW STYLE
 ===========================*/
 #header-row{
-	background: #f5f5f5;
-	border-bottom:1px solid #eee;
+	/*background: #f5f5f5;*/
+	background: white;
+	/*border-bottom:1px solid #eee;*/
 	/*padding: 15px 0;*/
 }
 
-div#header-row {position:fixed; top:0px; margin:auto; z-index:100000; width:100%;}
-/*div#header-row {position:fixed; top:0px; margin:auto; z-index:100000; width:100%; opacity:0.8}*/
+div#header-row {position:fixed; top:0px; margin:auto; z-index:100000; width:100%; opacity:0.95}
 
 #header-row .navbar{margin:0 0 0 0;}
 
@@ -52,7 +140,9 @@ div#header-row {position:fixed; top:0px; margin:auto; z-index:100000; width:100%
 #header-row .navbar .navbar-inner ul.nav > li > a{
 	box-shadow: none;
 	background: transparent;
-	color: #0088cc;
+	color: #2A3C98;
+	font-size: 20px;
+	/*color: #0088cc;*/
 }
 #header-row .navbar .navbar-inner ul.nav li.active a{
 	color: #333;
