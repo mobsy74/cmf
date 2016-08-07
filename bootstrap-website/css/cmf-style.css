@@ -1,0 +1,203 @@
+/*
+Global
+============================= */
+
+/*a {*/
+    /*outline: 0;*/
+/*}*/
+
+/*a:active {*/
+    /*outline: none;*/
+/*}*/
+
+/*input::-moz-focus-inner {*/
+    /*border: 0;*/
+/*}*/
+
+p {
+    line-height: 30px
+}
+body {
+    font-family: 'Quicksand', sans-serif;
+}
+
+/*
+Colors
+============================= */
+
+.background-white {
+	background: white;
+}
+
+.background-blue {
+	background: #2A3C98;
+}
+
+.background-red {
+	background: #E64C39;
+}
+
+.background-gray {
+	background: #D1D3D4;
+}
+
+.text-white {
+	color: white;
+}
+
+.text-blue {
+	color: #2A3C98;
+}
+
+.text-red {
+	color: #E64C39;
+}
+
+.text-gray {
+	color: #D1D3D4;
+}
+
+/*
+HEADER ROW STYLE
+===========================*/
+#header-row {
+	/*margin:0 0 0 0;*/
+	height:68px;
+	background: white;
+}
+
+#header-row .navbar-default{
+    background: white;
+    border-width: 0 0 0px;
+    /*height:68px;*/
+}
+
+#header-row .navbar .container-fluid ul.nav > li > a{
+	color: #2A3C98;
+	font-size: 18px;
+	margin:13px 0 3px 0;
+}
+
+#logo {
+	padding: 3px 20px 3px !important;
+}
+
+
+
+
+
+.flipped-img {
+    -moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    filter: "FlipH";
+    -ms-filter: "FlipH";
+}
+
+.text-centered {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-bold{
+    font-weight: bold;
+}
+
+.text-home-large {
+    font-size: 350%;
+    font-weight: bold;
+    line-height: 50px
+}
+
+.text-home-small {
+    font-size: 225%;
+}
+
+.text-about-large {
+    font-size: 350%;
+    font-weight: bold;
+    line-height: 20px
+}
+
+.text-about-small {
+    font-size: 175%;
+}
+
+.empty-div{
+    height: 500px;
+}
+
+.gmap{
+    border: 3px solid #D1D3D4;
+    border-radius: 10%;
+    height: 400px;
+    width: 400px;
+    box-shadow: 0px 0px 3px 3px #E7E4DC;
+    overflow: hidden;
+    position: relative;
+    margin: 0 auto;
+    float:left;
+}
+
+.section-home {
+     height:560px;
+ }
+
+.section-about {
+    height:560px;
+}
+
+.section-452{
+    height:452px;
+}
+
+.no-padding-left {
+    padding-left: 0 !important;
+}
+
+.no-padding-right {
+    padding-right: 0 !important;
+}
+
+/*
+SET EARLIER COLLAPSE FOR NAVBAR
+===========================*/
+@media (min-width: 768px) and (max-width: 1015px) {
+    .navbar-header {
+        float: none;
+    }
+    .navbar-toggle {
+        display: block;
+    }
+    .navbar-collapse {
+        border-top: 1px solid transparent;
+        box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+    }
+    .navbar-collapse.collapse {
+        display: none!important;
+    }
+    .navbar-nav {
+        float: none!important;
+        margin: 7.5px -15px;
+    }
+    .navbar-nav>li {
+        float: none;
+    }
+    .navbar-nav>li>a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .navbar-text {
+        float: none;
+        margin: 15px 0;
+    }
+    /* since 3.1.0 */
+    .navbar-collapse.collapse.in {
+        display: block!important;
+    }
+    .collapsing {
+        overflow: hidden!important;
+    }
+}
