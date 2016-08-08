@@ -20,8 +20,6 @@ p {
 
 body {
     font-family: 'Quicksand', sans-serif;
-    -webkit-font-smoothing: antialiased;
-    font-smoothing: antialiased;
 }
 
 .flipped-img {
@@ -161,8 +159,8 @@ SECTION LAYOUTS
     height:560px;
 }
 
-.section-452{
-    height:452px;
+.section-story {
+    height:560px;
 }
 
 .empty-section{
@@ -185,10 +183,6 @@ TEXT SIZE AND LAYOUT
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-.text-bold{
-    font-weight: bold;
 }
 
 .text-home-large {
