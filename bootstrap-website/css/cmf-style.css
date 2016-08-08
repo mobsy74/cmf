@@ -17,9 +17,34 @@ Global
 p {
     line-height: 30px
 }
+
 body {
     font-family: 'Quicksand', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    font-smoothing: antialiased;
 }
+
+.flipped-img {
+    -moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    filter: "FlipH";
+    -ms-filter: "FlipH";
+}
+
+.gmap{
+    border: 3px solid #D1D3D4;
+    border-radius: 10%;
+    height: 400px;
+    width: 400px;
+    box-shadow: 0px 0px 3px 3px #E7E4DC;
+    overflow: hidden;
+    position: relative;
+    margin: 0 auto;
+    float:left;
+}
+
 
 /*
 Colors
@@ -82,85 +107,6 @@ HEADER ROW STYLE
 	padding: 3px 20px 3px !important;
 }
 
-
-
-
-
-.flipped-img {
-    -moz-transform: scaleX(-1);
-    -o-transform: scaleX(-1);
-    -webkit-transform: scaleX(-1);
-    transform: scaleX(-1);
-    filter: "FlipH";
-    -ms-filter: "FlipH";
-}
-
-.text-centered {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.text-bold{
-    font-weight: bold;
-}
-
-.text-home-large {
-    font-size: 350%;
-    font-weight: bold;
-    line-height: 50px
-}
-
-.text-home-small {
-    font-size: 225%;
-}
-
-.text-about-large {
-    font-size: 350%;
-    font-weight: bold;
-    line-height: 20px
-}
-
-.text-about-small {
-    font-size: 175%;
-}
-
-.empty-div{
-    height: 500px;
-}
-
-.gmap{
-    border: 3px solid #D1D3D4;
-    border-radius: 10%;
-    height: 400px;
-    width: 400px;
-    box-shadow: 0px 0px 3px 3px #E7E4DC;
-    overflow: hidden;
-    position: relative;
-    margin: 0 auto;
-    float:left;
-}
-
-.section-home {
-     height:560px;
- }
-
-.section-about {
-    height:560px;
-}
-
-.section-452{
-    height:452px;
-}
-
-.no-padding-left {
-    padding-left: 0 !important;
-}
-
-.no-padding-right {
-    padding-right: 0 !important;
-}
-
 /*
 SET EARLIER COLLAPSE FOR NAVBAR
 ===========================*/
@@ -201,3 +147,67 @@ SET EARLIER COLLAPSE FOR NAVBAR
         overflow: hidden!important;
     }
 }
+
+
+/*
+SECTION LAYOUTS
+===========================*/
+
+.section-home {
+    height:560px;
+}
+
+.section-about {
+    height:560px;
+}
+
+.section-452{
+    height:452px;
+}
+
+.empty-section{
+    height: 560px;
+}
+
+.no-padding-left {
+    padding-left: 0 !important;
+}
+
+.no-padding-right {
+    padding-right: 0 !important;
+}
+
+
+/*
+TEXT SIZE AND LAYOUT
+===========================*/
+.text-centered {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-bold{
+    font-weight: bold;
+}
+
+.text-home-large {
+    font-size: 350%;
+    font-weight: bold;
+    line-height: 50px
+}
+
+.text-home-small {
+    font-size: 225%;
+}
+
+.text-about-large {
+    font-size: 350%;
+    font-weight: bold;
+    line-height: 20px
+}
+
+.text-about-small {
+    font-size: 175%;
+}
+
