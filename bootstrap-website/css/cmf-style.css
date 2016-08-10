@@ -2,24 +2,12 @@
 Global
 ============================= */
 
-/*a {*/
-    /*outline: 0;*/
-/*}*/
-
-/*a:active {*/
-    /*outline: none;*/
-/*}*/
-
-/*input::-moz-focus-inner {*/
-    /*border: 0;*/
-/*}*/
-
 p {
     line-height: 30px
 }
 
 a:focus{
-    text-decoration: none;
+    text-decoration: none !important;
 }
 
 body {
@@ -88,7 +76,6 @@ Colors
 HEADER ROW STYLE
 ===========================*/
 #header-row {
-	/*margin:0 0 0 0;*/
 	height:68px;
 	background: white;
 }
@@ -96,7 +83,6 @@ HEADER ROW STYLE
 #header-row .navbar-default{
     background: white;
     border-width: 0 0 0px;
-    /*height:68px;*/
 }
 
 #header-row .navbar .container-fluid ul.nav > li > a{
@@ -141,7 +127,7 @@ SET EARLIER COLLAPSE FOR NAVBAR
         float: none;
         margin: 15px 0;
     }
-    /* since 3.1.0 */
+
     .navbar-collapse.collapse.in {
         display: block!important;
     }
@@ -240,10 +226,8 @@ TEAM HEADSHOTS
 }
 
 .headshot-div {
-    /*background: cyan;*/
     border: 1px;
     height: 200px;
-    /*border-style: dashed;*/
 }
 
 .team-member-description {
@@ -252,7 +236,7 @@ TEAM HEADSHOTS
 }
 
 /*
-OTHER
+CONTACT
 ===========================*/
 
 .contact-items i.fa {
@@ -266,7 +250,7 @@ OTHER
     transition: all 0.5s;
 }
 
-.contact-items a {
+.contact-items p a {
     color: white;
 }
 
