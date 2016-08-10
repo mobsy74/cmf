@@ -18,6 +18,10 @@ p {
     line-height: 30px
 }
 
+a:focus{
+    text-decoration: none;
+}
+
 body {
     font-family: 'Quicksand', sans-serif;
 }
@@ -31,9 +35,9 @@ body {
     -ms-filter: "FlipH";
 }
 
-.gmap{
+.map{
     border: 3px solid #D1D3D4;
-    border-radius: 10%;
+    border-radius: 8%;
     height: 400px;
     width: 400px;
     box-shadow: 0px 0px 3px 3px #E7E4DC;
@@ -163,6 +167,18 @@ SECTION LAYOUTS
     height:560px;
 }
 
+.section-team-top {
+    height:168px;
+}
+
+.section-team-bottom {
+    height:392px;
+}
+
+.section-contact {
+    height:560px;
+}
+
 .empty-section{
     height: 560px;
 }
@@ -203,5 +219,59 @@ TEXT SIZE AND LAYOUT
 
 .text-about-small {
     font-size: 175%;
+}
+
+
+/*
+TEAM HEADSHOTS
+===========================*/
+.headshot-border {
+    border-radius: 50%;
+    background: white;
+    width: 160px;
+    height: 160px;
+    padding: 0 0 0 0;
+}
+
+.headshot-picture {
+    width: 140px;
+    height: 140px;
+    margin: 6px 0 0 9px;
+}
+
+.headshot-div {
+    /*background: cyan;*/
+    border: 1px;
+    height: 200px;
+    /*border-style: dashed;*/
+}
+
+.team-member-description {
+    font-weight: bold;
+    font-size: 150%;
+}
+
+/*
+OTHER
+===========================*/
+
+.contact-items i.fa {
+    font-size: 40px;
+    border: 4px solid #D1D3D4;
+    width: 100px;
+    height: 100px;
+    padding: 27px 25px;
+    margin-bottom: 10px;
+    border-radius: 50%;
+    transition: all 0.5s;
+}
+
+.contact-items a {
+    color: white;
+}
+
+.contact-items a:hover {
+    color: white;
+    font-weight: bold;
 }
 

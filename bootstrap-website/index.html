@@ -7,9 +7,28 @@
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <title>Community Mission Financial</title>
 
+    <!-- Fav icon -->
+    <link rel="shortcut icon" href="img/favicon.ico">
+
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" type="text/css" href="fonts/font-awesome/css/font-awesome.css">
+
+    <!-- Custom CMF CS -->
     <link href="css/cmf-style.css" rel="stylesheet">
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="js/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Custom CMF JS -->
+    <script src="js/main.js"></script>
+
+    <!-- Quicksand Font -->
+    <link href="fonts/quicksand-family-description.css" rel="stylesheet">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -17,18 +36,6 @@
     <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
-
-    <!-- Fav icon -->
-    <link rel="shortcut icon" href="img/favicon.ico">
-
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="js/jquery.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/main.js"></script>
-
-    <!-- Quicksand Font -->
-    <link href="fonts/quicksand-family-description.css" rel="stylesheet">
 
 </head>
 <body>
@@ -154,28 +161,98 @@
 </div>
 
 
-<div class="container-fluid background-gray empty-section" id="team">
-    <div class="col-md-6">
+<div class="container-fluid background-gray" id="team">
+    <div class="col-md-12 section-team-top">
         <p>
             <span class="text-home-large text-white">
                 <br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;our team
             </span>
         </p>
     </div>
-    <div class="col-md-6">
+
+
+    <div class="col-md-12 section-team-bottom">
+        <div class="row">
+            <div class="col-md-2 col-md-offset-1"></div>
+            <div class="col-md-2 headshot-div text-centered">
+                <div class="col-mid-12 headshot-border">
+                    <img src="img/ashley-carter.png" class="headshot-picture" />
+                </div>
+            </div>
+            <div class="col-md-2 headshot-div text-centered">
+                <div class="col-mid-12 headshot-border">
+                    <img src="img/john-gobble.png" class="headshot-picture" />
+                </div>
+            </div>
+            <div class="col-md-2 headshot-div text-centered">
+                <div class="col-mid-12 headshot-border">
+                    <img src="img/laurel-cartwright.png" class="headshot-picture" />
+                </div>
+            </div>
+            <div class="col-md-2"></div>
+        </div>
+        <div class="row">
+            <div class="col-md-2 col-md-offset-1"></div>
+            <div class="col-md-2">
+                <div class="col-mid-12 text-center text-white team-member-description">
+                    <p>Ashley Carter: Founder</p>
+                </div>
+            </div>
+            <div class="col-md-2">
+                <div class="col-mid-12 text-center text-white team-member-description">
+                    <p>John Gobble: Founder</p>
+                </div>
+            </div>
+            <div class="col-md-2">
+                <div class="col-mid-12 text-center text-white team-member-description">
+                    <p>Laurel Cartwright: Founder</p>
+                </div>
+            </div>
+            <div class="col-md-2"></div>
+        </div>
 
     </div>
+
 </div>
 
 
 <div class="container-fluid background-blue no-padding-right" id="contact">
-    <div class="col-md-6">
-        <div class="gmap">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3952.9170569982366!2d-78.65991068435149!3d37.956752209441014!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b378754d3b88f5%3A0x2c4299a5b7e8f476!2s4916+Plank+Rd%2C+North+Garden%2C+VA+22959!5e1!3m2!1sen!2sus!4v1464743362996" width="400" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>
+    <div class="col-md-4 section-contact">
+        <div class="text-centered section-contact">
+            <!--<iframe class="map"  width="400" height="400" frameborder="0" allowfullscreen-->
+                    <!--src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3952.9170569982366!2d-78.65991068435149!3d37.956752209441014!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b378754d3b88f5%3A0x2c4299a5b7e8f476!2s4916+Plank+Rd%2C+North+Garden%2C+VA+22959!5e1!3m2!1sen!2sus!4v1464743362996">-->
+            <!--</iframe>-->
+            <iframe class="map"  width="400" height="400" frameborder="0" allowfullscreen
+                    src="temp/temp.html">
+            </iframe>
         </div>
     </div>
-    <div class="col-md-6 no-padding-right">
-        <img src="img/telephone.svg" />
+    <div class="col-md-4 text-centered text-center section-contact text-white contact-items">
+
+        <address style="margin-top: 100px;">
+            <h3>Head Office</h3>
+            <p>4916 Plank Road, Upper Level, Suite 4 <br>
+                North Garden, VA 22959</p>
+            <p>Phone: 434.841.5644</p>
+            <p class="contact-items"><a href="mailto:info@communitymissionfinancial.com?Subject=Website%20Inquiry">info@communitymissionfinancial.com</a></p>
+        </address>
+
+
+<div class="row">
+        <a href="https://www.facebook.com/communtymissionfinancial" target="blank"><i class="fa fa-facebook"></i></a>
+        <a href="https://www.linkedin.com/in/john-gobble-783867115" target="blank"><i class="fa fa-linkedin-square"></i></a>
+</div>
+
+        <!--<div class="tf-services text-center">-->
+            <!--<ul class="footer-social">-->
+                <!--<li><a href="https://www.facebook.com/communtymissionfinancial" target="blank"><i class="fa fa-facebook"></i></a></li>-->
+                <!--<li><a href="https://www.linkedin.com/in/john-gobble-783867115" target="blank"><i class="fa fa-linkedin-square"></i></a></li>-->
+            <!--</ul>-->
+        <!--</div>-->
+
+    </div>
+    <div class="col-md-4 no-padding-right section-contact">
+        <img src="img/telephone.svg" class="section-contact pull-right" />
     </div>
 </div>
 
