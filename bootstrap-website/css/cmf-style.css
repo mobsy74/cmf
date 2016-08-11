@@ -24,8 +24,14 @@ body {
 }
 
 .map{
+    height: 400px;
+    width: 400px;
+}
+
+.map-div{
     border: 3px solid #D1D3D4;
-    border-radius: 8%;
+    -moz-border-radius: 10%;
+    border-radius: 10%;
     height: 400px;
     width: 400px;
     box-shadow: 0px 0px 3px 3px #E7E4DC;
@@ -34,7 +40,6 @@ body {
     margin: 0 auto;
     float:left;
 }
-
 
 /*
 Colors
