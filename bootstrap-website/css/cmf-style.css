@@ -6,10 +6,6 @@ p {
     line-height: 30px
 }
 
-a:focus{
-    text-decoration: none !important;
-}
-
 body {
     font-family: 'Quicksand', sans-serif;
 }
@@ -253,14 +249,21 @@ CONTACT
     margin-bottom: 10px;
     border-radius: 50%;
     transition: all 0.5s;
-}
-
-.contact-items p a {
     color: white;
 }
 
-.contact-items a:hover {
-    color: white;
+.social-media:hover {
+    transition: all 0.5s;
+    background-color: white;
+    color: #2A3C98 !important;
+}
+
+.mailto-link {
+    color: white !important;
+}
+
+.mailto-link:hover {
     font-weight: bold;
+    font-size: 110%;
+    text-decoration: none !important;
 }
-
