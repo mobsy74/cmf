@@ -92,6 +92,10 @@ HEADER ROW STYLE
 	margin:13px 0 3px 0;
 }
 
+#header-row .navbar .container-fluid ul.nav > li > a:hover{
+    color: #E64C39 !important;
+}
+
 #logo {
 	padding: 3px 20px 3px !important;
 }
@@ -255,7 +259,8 @@ CONTACT
 .social-media:hover {
     transition: all 0.5s;
     background-color: white;
-    color: #2A3C98 !important;
+    /*color: #2A3C98 !important;*/
+    color: #E64C39 !important;
 }
 
 .mailto-link {
@@ -263,7 +268,8 @@ CONTACT
 }
 
 .mailto-link:hover {
-    font-weight: bold;
-    font-size: 110%;
+    /*font-weight: bold;*/
+    /*font-size: 110%;*/
     text-decoration: none !important;
+    color: #E64C39 !important;
 }
