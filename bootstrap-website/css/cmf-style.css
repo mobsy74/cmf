@@ -182,6 +182,20 @@ SECTION LAYOUTS
     padding-right: 0 !important;
 }
 
+.contact-left {
+    position: relative;
+    z-index: 2;
+}
+
+.contact-center {
+    position: relative;
+    z-index: 3;
+}
+
+.contact-right {
+    position: relative;
+    z-index: 1;
+}
 
 /*
 TEXT SIZE AND LAYOUT
