@@ -1,0 +1,4 @@
+reduce font size and add line spacing?
+remove link outlines in firefox
+what to do with group photo?
+rewrite contact section to send php email?
