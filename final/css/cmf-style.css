@@ -374,7 +374,7 @@ body {
 }
 
 .services-header-small{
-    padding: 100px 0 0px 0;
+    padding: 100px 0 25px 100px;
 }
 
 .service{
@@ -397,6 +397,10 @@ body {
 
 #services-bottom-row{
     margin-bottom: 50px;
+}
+
+.services-container{
+    padding-bottom: 50px;
 }
 
 @media all {
