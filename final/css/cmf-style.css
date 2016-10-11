@@ -373,10 +373,21 @@ body {
     padding: 50px 0 50px 100px;
 }
 
+.services-header-small{
+    padding: 100px 0 0px 0;
+}
+
 .service{
     max-height: 100px;
     border-radius: 50%;
     border: 3px solid #D1D3D4;
+    margin: 15px 5px 15px 5px;
+}
+
+.service-small{
+    max-height: 55px;
+    border-radius: 50%;
+    border: 2px solid #D1D3D4;
     margin: 15px 5px 15px 5px;
 }
 
@@ -446,6 +457,13 @@ body {
     }
 }
 
+@media all {
+    .text-services-small {
+        font-size: 200%;
+        font-weight: bold;
+        line-height: 60px
+    }
+}
 
 /*STORY*/
 /*===========================*/
