@@ -1,5 +1,4 @@
-primary and secondary services?
-reduce font size and add line spacing?
+primary and secondary services layout?
 remove link outlines in firefox
 what to do with group photo?
 rewrite contact section to send php email?
