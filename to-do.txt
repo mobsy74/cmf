@@ -3,5 +3,3 @@ remove link outlines in firefox
 what to do with group photo?
 rewrite contact section to send php email?
 SEO?
-
-new item
